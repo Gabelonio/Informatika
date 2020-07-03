@@ -1,7 +1,5 @@
 /*---------General Styling-------*/
-*{
-  box-sizing: content-box;
-}
+
 /*Body colors and font*/
 body{
   font-size: 16px;
@@ -17,6 +15,9 @@ body{
 }
 #header-nav #company{
   height: 185px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #d4d4d4;
 }
 /*---------Top text-------*/
 .navbar-brand h1{
@@ -91,7 +92,7 @@ body{
   margin: auto;
   font-family: 'Roboto', sans-serif;
 }
-/*Product responsiveness*/
+/*Product margins*/
 .product{
   padding-left: 4%;
   padding-right: 4%;
@@ -156,18 +157,20 @@ footer{
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  /*
-  div.row div{
-    height: 450px;
-    width: 48%;
-    margin-left: 2%;
+@media (max-width: 991px) {
+  #header-nav #company{
+    height: 120px;
   }
-  div.row div#sushi{
-    width: 98%;
-  }*/
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
+  .navbar-nav li{
+    width: 100%;
+  }
+  /*---------Products-------*/
+  /*Product responsiveness*/
+  .product{
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 4%;
+    padding: 0;
+  }
 }
