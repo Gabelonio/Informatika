@@ -1,0 +1,42 @@
+/*Title Styling*/
+.product_label{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h2{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/*Forms stying*/
+.form-control{
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+.field_label{
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10%;
+}
+/*login and register buttons styling*/
+.enter_button{
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #450b0b;
+  border-width: 0;
+  transition: 0.3s;
+}
+.enter_button:hover{
+  background-color: #8c3535;
+}
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  .form-control{
+    width: 80%;
+  }
+  .enter_button{
+    width: 70%;
+  }
+}
