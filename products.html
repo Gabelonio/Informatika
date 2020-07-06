@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/account_styles.css">
+    <link rel="stylesheet" href="css/products.css">
     <!--fonts and icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -68,51 +68,95 @@
     <div class="main-content">
       <div class="container products">
         <div class="row">
-          <div class="col-lg-12 product_label">
-            <h1>Mi cuenta</h1>
+          <div class="col-xs-12 col-md-3">
           </div>
-        </div><!--Title section-->
+          <div id="our_products" class="col-xs-12 col-md-6 product_label">
+            <h1>Nuestros Productos </h1>
+          </div>
+          <div class="col-xs-12 col-md-3 product_label">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                Ordenar por
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nombre-Ascendente</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nombre-Descendente</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Precio-Ascendente</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Precio-Descendente</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="about_paragraph col-xs-12 col-md-6 product_label">
-            <h2>Ingreso</h2>
-            <form class="form-signin" action="index.html">
-              <label for="inputEmail" class="sr-only">Correo</label>
-              <p class="field_label">Correo electrónico *</p>
-              <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
-              <label for="inputPassword" class="sr-only">Contraseña</label>
-              <p class="field_label">Contraseña *</p>
-              <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-              <!--<div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Remember me
-                </label>
-              </div>-->
-              <button class="enter_button btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-            </form><!--login-->
+          <div id="categories" class="col-xs-12 col-md-3 product_label">
+            <ul class="nobull">
+             <li>Procesadores</li>
+             <li>Gabinetes</li>
+             <li>Discos duros</li>
+             <li>Portatiles</li>
+            </ul>
           </div>
-          <hr class="visible-xs">
-          <div class="about_paragraph col-xs-12 col-md-6 product_label">
-            <h2>Registro</h2>
-            <form class="form-signin" action="index.html">
-              <label for="inputEmail" class="sr-only">Correo</label>
-              <p class="field_label">Correo electrónico *</p>
-              <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
-              <label for="inputPassword" class="sr-only">Contraseña</label>
-              <p class="field_label">Contraseña *</p>
-              <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-              <label for="inputPassword" class="sr-only">Correo</label>
-              <p class="field_label">Dirección *</p>
-              <input type="text" id="inputDir" class="form-control" placeholder="Dirección" required="">
-              <!--<div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Remember me
-                </label>
-              </div>-->
-              <button class="enter_button btn btn-lg btn-primary btn-block" type="submit">Registrarse</button>
-            </form><!--login-->
-          </div>
-        </div><!--Account section-->
-      </div><!--Products section-->
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/MonitorSample.jpg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Monitor LG Led 20" 16:9 Hd 20MK400H-B</p>
+              <p class="product_pricing">$352.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product info-->
+            </div><!--Product showcase-->
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/ProcessorSample.jpg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Procesador AMD 3ra Generación Ryzen 5 </p>
+              <p class="product_pricing">$685.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product image-->
+            </div><!--Product showcase-->
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/KeyboardSample.jpg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Benq Zowie Celeritas ii Teclado Para Esports </p>
+              <p class="product_pricing">$650.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product image-->
+            </div>
+            <div class="col-xs-12 col-md-3">
+            </div>
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/GabineteSample.jpg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Caja Atx Mid Tower Thermaltake Level 20 MT </p>
+              <p class="product_pricing">$450.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product image-->
+            </div><!--Product showcase-->
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/GabineteSample2.jpeg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Caja Atx Inwin 909 Negro </p>
+              <p class="product_pricing">$1.550.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product image-->
+            </div><!--Product showcase-->
+            <div class="product col-xs-12 col-sm-3">
+              <a class="product_image"href="single_product.html">
+                <img class="img-responsive" width="350" height="350"
+                 src="images/GabineteSample3.jpeg" alt="Item">
+              </a><!--Product image-->
+              <p class="product_name">Caja Atx Inwin 303 Blanca Versión Msi </p>
+              <p class="product_pricing">$620.000</p>
+              <i class="fa shopping-icon">&#xf07a;</i><!--Product image-->
+            </div><!--Product showcase-->
+        <div class="row">
+        </div>
+        <hr class="visible-xs">
+      </div>
     </div><!--Main content-->
     <footer class="panel-footer">
       <div id="footer_section" class="container">

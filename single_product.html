@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/account_styles.css">
+    <link rel="stylesheet" href="css/single_styles.css">
     <!--fonts and icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -68,51 +68,28 @@
     <div class="main-content">
       <div class="container products">
         <div class="row">
-          <div class="col-lg-12 product_label">
-            <h1>Mi cuenta</h1>
+          <div class="col-xs-12 col-md-5 product_label">
+            <img class="img-responsive" width="700" height="700"
+             src="images/ProcessorSample.jpg" alt="Item">
           </div>
-        </div><!--Title section-->
+          <div class="description_paragraph col-xs-12 col-md-7 product_label">
+            <h1>Procesador AMD 3ra Generación Ryzen 5 </h1>
+            <p>La revolucionaria arquitectura de cuatro núcleos te da la misma velocidad de respuesta y rendimiento que una PC mucho más costosa, incluidos los modelos con tarjetas gráficas Radeon de avanzada que vienen integradas.<br>
+               Precision Boost 2 aumenta las frecuencias del procesador de forma automática para un rendimiento acelerado cuando más lo necesitas.<br>
+               Eficiencia energética mejorada, velocidades de reloj más altas y más núcleos que nunca.<br>
+               AMD Ryzen Master Logra el control máximo de tu sistema con AMD Ryzen para hacer overclock según tus necesidades y lograr una gran eficiencia.<br>
+            </p>
+            <h4>Categoría: Procesadores</h4>
+            <h4>Añadir producto
+            <a class="product_image"href="single_product.html">
+              <i class="fa shopping-icon">&#xf07a;</i>
+            </a>
+            </h4>
+          </div>
+        </div><!--About section-->
         <div class="row">
-          <div class="about_paragraph col-xs-12 col-md-6 product_label">
-            <h2>Ingreso</h2>
-            <form class="form-signin" action="index.html">
-              <label for="inputEmail" class="sr-only">Correo</label>
-              <p class="field_label">Correo electrónico *</p>
-              <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
-              <label for="inputPassword" class="sr-only">Contraseña</label>
-              <p class="field_label">Contraseña *</p>
-              <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-              <!--<div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Remember me
-                </label>
-              </div>-->
-              <button class="enter_button btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-            </form><!--login-->
-          </div>
-          <hr class="visible-xs">
-          <div class="about_paragraph col-xs-12 col-md-6 product_label">
-            <h2>Registro</h2>
-            <form class="form-signin" action="index.html">
-              <label for="inputEmail" class="sr-only">Correo</label>
-              <p class="field_label">Correo electrónico *</p>
-              <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
-              <label for="inputPassword" class="sr-only">Contraseña</label>
-              <p class="field_label">Contraseña *</p>
-              <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-              <label for="inputPassword" class="sr-only">Correo</label>
-              <p class="field_label">Dirección *</p>
-              <input type="text" id="inputDir" class="form-control" placeholder="Dirección" required="">
-              <!--<div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"> Remember me
-                </label>
-              </div>-->
-              <button class="enter_button btn btn-lg btn-primary btn-block" type="submit">Registrarse</button>
-            </form><!--login-->
-          </div>
-        </div><!--Account section-->
-      </div><!--Products section-->
+        </div>
+      </div>
     </div><!--Main content-->
     <footer class="panel-footer">
       <div id="footer_section" class="container">

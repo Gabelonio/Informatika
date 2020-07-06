@@ -1,0 +1,48 @@
+#our_products{
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.product{
+  margin-bottom: 40px;
+}
+.description_paragraph{
+  text-align: justify;
+}
+h1{
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+h4{
+  margin-top: 30px;
+  font-weight: bold;
+}
+#categories{
+  padding-left: 0;
+  padding-top: 0;
+}
+.nobull {
+ background-color: #fff;
+ padding-left: 0;
+ list-style-type: none;
+ border-width: 100px;
+ text-align: left;
+}
+.nobull li{
+  transition: 0.3s;
+  height: 50px;
+  line-height: 50px;
+  background-color: #d4d4d4;
+  vertical-align: middle;
+}
+.nobull li:hover{
+  color: #fff;
+  background-color: #665A5A;
+}
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  #categories{
+   padding-left: 5%;
+   padding-right: 5%;
+  }
+}
