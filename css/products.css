@@ -39,7 +39,7 @@ h4{
   color: #fff;
   background-color: #665A5A;
 }
-/********** Small devices only **********/
+/********** Small devices only ***********/
 @media (max-width: 991px) {
   #categories{
    padding-left: 5%;
