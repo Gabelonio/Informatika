@@ -25,7 +25,7 @@ The model has the following views :
   <li>
     Products
   </li>
-<ul> 
+</ul> 
 
 ### Sources
 <ol>
@@ -48,7 +48,7 @@ The model has the following views :
     Google maps.
   </li>
   <li>
-    <b>Informatika Logo created with [LogoMakr.com](https://logomakr.com)</b>
+    <b>Informatika Logo created with LogoMakr.com </b>
   </li>
 </ol>
 
