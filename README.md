@@ -1,7 +1,33 @@
-# Proyecto-tienda-digital
-Proyecto realizado para el espacio académico Factores Humanos
+# Informatika
 
-<h3>Recursos:</h3>
+#### Gabriel Esteban Castillo Ramirez
+#### Sebastian Solano Villada
+#### Juan Diego León Moreno
+
+### Introduction
+This repository shows the visual prototype of a PC peripherals store using different 
+technologies focused on visualization and interaction.
+
+### Structure
+This visual prototype uses HTML, CSS and the Bootstrap library to model the visuals of this prototype.
+
+The model has the following views :
+<ul>
+  <li>
+    Main page
+  </li>  
+  <li>
+    About
+  </li>  
+  <li>
+    Login
+  </li> 
+  <li>
+    Products
+  </li>
+<ul> 
+
+### Sources
 <ol>
   <li>
     Bootstrap versión 3.4.1.
@@ -22,6 +48,9 @@ Proyecto realizado para el espacio académico Factores Humanos
     Google maps.
   </li>
   <li>
-    <b>Logo de Informatika creado en LogoMakr.com</b>
+    <b>Informatika Logo created with [LogoMakr.com](https://logomakr.com)</b>
   </li>
 </ol>
+
+### Visualization
+By clicking the following link the prototype will be deployed: [Informatika](https://gabelonio.github.io/Proyecto-tienda-digital/index.html). 
