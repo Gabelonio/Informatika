@@ -9,8 +9,8 @@ This repository shows the visual prototype of a PC peripherals store using diffe
 technologies focused on visualization and interaction.
 
 ### Structure
-This visual prototype uses HTML, CSS and the Bootstrap library to model the visuals of this prototype.<br>
-It also considers practices with responsiveness (media queries)
+This visual prototype uses HTML, CSS and the Bootstrap library to model the visuals of this prototype<br>
+It also considers practices with responsiveness (media queries).
 
 
 The model has the following views :
