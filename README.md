@@ -58,4 +58,4 @@ The model has the following views :
 This prototype has the expectation of being functional with the support of Angular. 
 
 ### Visualization
-By clicking the following link the prototype will be deployed: [Informatika](https://gabelonio.github.io/Proyecto-tienda-digital/index.html). 
+By clicking the following link the prototype will be deployed: [Informatika](https://gabelonio.github.io/Informatika/). 
